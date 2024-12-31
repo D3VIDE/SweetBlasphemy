@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layout/mainform');
+    return view('layout/mainform',[
+        "title" => "SB | Home"
+    ]);
 });

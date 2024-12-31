@@ -1,0 +1,11 @@
+.custom-font{
+  font-family: "Gentium Plus", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.custom-normal{
+  font-family: "Gentium Plus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
