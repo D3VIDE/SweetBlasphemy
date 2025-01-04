@@ -1,11 +1,23 @@
-.custom-font{
+.gentium-boldtext{
   font-family: "Gentium Plus", serif;
   font-weight: 700;
   font-style: italic;
+  font-size: 30px;
 }
 
-.custom-normal{
+.gentium-text{
   font-family: "Gentium Plus", serif;
   font-weight: 400;
   font-style: normal;
+  color: black !important;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: TrajanusBricks;
+  src: url(TrajanusBricks.ttf);
+}
+
+.text-trajanus{
+  font-family: TrajanusBricks;
 }
