@@ -1,0 +1,39 @@
+
+nav ul li{
+  display: inline-block;
+  margin: 0 5px;
+  line-height: 60px;
+  position: relative;
+}
+
+ ul li a{
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  padding: 7px 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #ff0233 ;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+nav ul li:hover::after{
+  width: 100%;
+}
+
+.navbar-brand:hover{
+  color: #fff !important;
+}
